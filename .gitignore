@@ -10,6 +10,15 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
 # Package Files #
 *.jar
 *.war
