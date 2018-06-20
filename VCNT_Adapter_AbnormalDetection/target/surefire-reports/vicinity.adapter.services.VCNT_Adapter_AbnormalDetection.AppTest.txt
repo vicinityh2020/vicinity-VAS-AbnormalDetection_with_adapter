@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: vicinity.adapter.services.VCNT_Adapter_AbnormalDetection.AppTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.01 sec
