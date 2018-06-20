@@ -18,3 +18,10 @@
 *.tar.gz
 *.rar
 
+# Exclude target folder
+target/**
+
+# Except jar file
+
+!target/*.jar
+
