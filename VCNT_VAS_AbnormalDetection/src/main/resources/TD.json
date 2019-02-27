@@ -1,0 +1,364 @@
+{
+	"adapter-id": "adapter3.1.3",
+	"thing-descriptions":
+	[{
+			"name": "VAS 3.1.3 - Abnormal Detection",
+			"type": "core:Service",
+			"version": "0.0.1",
+			"oid": "vas3.1.3",
+			"properties": [{
+					"pid": "activity_level",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "mobility_level",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "nri_level",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "rooms_duration",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "rooms_usage",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "notifications",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				},
+				{
+					"pid": "rooms_usage_duration_month",
+					"monitors": "adapters:OnOff",
+					"read_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						}
+					},
+					"write_link": {
+						"href": "/objects/{oid}/properties/{pid}",
+						"input": {
+							"type": "object",
+							"field": [{
+									"name": "adapterId",
+									"schema": {
+										"type": "string"
+									}
+								}, {
+									"name": "userId",
+									"schema": {
+										"type": "string"
+									}
+								}
+							]
+						},
+						"output": {
+							"type": "object",
+							"field": [{
+									"name": "success",
+									"schema": {
+										"type": "boolean"
+									}
+								}
+							]
+						}
+					}
+				}
+			],
+			"actions": [],
+			"events": []
+		}
+	]
+}
